@@ -2622,7 +2622,7 @@ input, select, textarea {
 				}
 
 				.tiles article > .image:after {
-					pointer-events: none;
+					/*pointer-events: none;
 					-moz-transition: opacity 0.5s ease;
 					-webkit-transition: opacity 0.5s ease;
 					-ms-transition: opacity 0.5s ease;
@@ -2639,7 +2639,7 @@ input, select, textarea {
 					background-repeat: no-repeat;
 					background-size: 100% 100%;
 					opacity: 0.25;
-					z-index: 2;
+					z-index: 2;*/
 				}
 
 			.tiles article > a {
@@ -2705,6 +2705,10 @@ input, select, textarea {
 						margin-bottom: 0;
 					}
 
+			.tiles article.style0 > .image:before {
+				background-color: #858585;
+			}
+
 			.tiles article.style1 > .image:before {
 				background-color: #f2849e;
 			}
@@ -2727,6 +2731,14 @@ input, select, textarea {
 
 			.tiles article.style6 > .image:before {
 				background-color: #8499e7;
+			}
+
+			.tiles article.style7 > .image:before {
+				background-color: #e6cf73;
+			}
+
+			.tiles article.style8 > .image:before {
+				background-color: #7a5f5f;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
